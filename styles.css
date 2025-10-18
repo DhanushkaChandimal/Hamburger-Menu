@@ -18,6 +18,11 @@
     text-decoration: none;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+}
+
 .menu ul {
     list-style: none;
     display: flex;
@@ -42,4 +47,19 @@
     color: white;
     font-size: 25px;
     cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 599px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: flex;
+    }
 }
