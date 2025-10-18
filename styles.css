@@ -33,3 +33,7 @@
 .menu a:hover {
     color: antiquewhite;
 }
+
+.content {
+    padding: 20px;
+}
