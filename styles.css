@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    background-color: black;
+    background-color: #333;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@
 }
 
 .menu a:hover {
-    color: antiquewhite;
+    color: #ddd;
 }
 
 .content {
@@ -60,7 +60,7 @@
         flex-direction: column;
         position: absolute;
         top: 47px;
-        background-color: black;
+        background-color: #333;
         left: 0;
         right: 0;
         padding: 20px 0px;
